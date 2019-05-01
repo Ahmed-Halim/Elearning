@@ -9,13 +9,17 @@ public class Quiz {
     ArrayList <String> answers;
     ArrayList <Answer> students_answers;
 
-    public Quiz(int quizId, String name, ArrayList<String> questions, ArrayList<String> answers) {
-        this.quizId = quizId;
+    public Quiz(String name, ArrayList<String> questions, ArrayList<String> answers) {
+        this.quizId = generateId();
         this.name = name;
         this.questions = questions;
         this.answers = answers;
     }
 
+    private int generateId() {
+        return 1;
+    }
+    
     public int getQuizId() {
         return quizId;
     }
@@ -51,6 +55,10 @@ public class Quiz {
     @Override
     public String toString() {
         return "Quiz{" + "quizId=" + quizId + ", name=" + name + ", questions=" + questions + ", answers=" + answers + '}';
+    }
+    
+    void addStudentAnswer(Answer ans) {
+        students_answers.add(ans);
     }
     
 }

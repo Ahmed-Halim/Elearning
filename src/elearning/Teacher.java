@@ -1,4 +1,7 @@
 package elearning;
+
+import elearning.*;
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class Teacher extends AuthorizedUser {
@@ -70,6 +73,10 @@ public class Teacher extends AuthorizedUser {
         return "Teacher{" + "salary=" + salary + ", bio=" + bio + ", DateOfEmployement=" + DateOfEmployement + '}';
     }
     
+    void CreateQuiz(String courseCode, ArrayList <String> questions, ArrayList <String> answers) {
+        Quiz newQuiz = new Quiz("Quiz1" , questions, answers);
+        //insert newQuiz to course with courseCode in database
+    }
     
     
 }
