@@ -3,21 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Student.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/DateTime.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Course.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Assignment.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Elearning.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Admin.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/testing/SystemTest.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Answer.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/AcademicYear.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Teacher.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Material.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Parent.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/DB.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/testing/Main.java</file>
-            <file>file:/Users/ahmed/NetBeansProjects/Elearning/src/elearning/Quiz.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/elearning/Teacher.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/GUI/adminPanel.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/GUI/timeTable.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/GUI/studentPanel.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/elearning/Parent.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/GUI/courseMaterialfrm.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/GUI/teacherPanel.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/elearning/Online.java</file>
+            <file>file:/C:/Users/Abdo/Desktop/s/Elearning-master/src/GUI/loginform.java</file>
         </group>
     </open-files>
 </project-private>
