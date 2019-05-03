@@ -7,10 +7,14 @@ public class Quiz {
     String name;
     ArrayList <String> questions;
     ArrayList <String> answers;
-    ArrayList <Answer> students_answers;
 
-    public Quiz(String name, ArrayList<String> questions, ArrayList<String> answers) {
-        this.quizId = generateId();
+    public Quiz() {
+        questions = new ArrayList <>();
+        answers = new ArrayList <>();
+    }
+    
+    public Quiz(int quizId, String name, ArrayList<String> questions, ArrayList<String> answers) {
+        this.quizId = quizId;
         this.name = name;
         this.questions = questions;
         this.answers = answers;
@@ -56,9 +60,13 @@ public class Quiz {
     public String toString() {
         return "Quiz{" + "quizId=" + quizId + ", name=" + name + ", questions=" + questions + ", answers=" + answers + '}';
     }
+   
+    public void addQuestion(String question) {
+        this.questions.add(question);
+    }
     
-    void addStudentAnswer(Answer ans) {
-        students_answers.add(ans);
+    public void addAnswer(String answer) {
+        this.answers.add(answer);
     }
     
 }

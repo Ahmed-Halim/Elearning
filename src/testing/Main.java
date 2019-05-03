@@ -1,6 +1,5 @@
 package testing;
 
-import java.util.ArrayList;
 import java.util.List;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
@@ -17,6 +16,6 @@ public class Main {
             System.out.println(failures.get(i).toString());
         }
 
-        System.out.println(result.wasSuccessful());
+        System.out.println(result.wasSuccessful() ? "Testing done successfully" : "Testing faild");
     }
 }

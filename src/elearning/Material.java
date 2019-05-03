@@ -5,6 +5,10 @@ public class Material {
     String name;
     String subject;
 
+    public Material() {
+    
+    }
+    
     public Material(int id, String name, String subject) {
         this.id = id;
         this.name = name;

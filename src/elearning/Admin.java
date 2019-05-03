@@ -6,14 +6,19 @@ public class Admin extends Person {
     String password;
     float salary;
 
-    public Admin(Admin adminInstance, String userName, String password, float salary, String fullName, String email, String phone, String DateOfBirth, String address) {
+    public Admin() {
+        
+    }
+    
+    public Admin(String userName, String password, float salary, String fullName, String email, String phone, String DateOfBirth, String address) {
         super(fullName, email, phone, DateOfBirth, address);
-        this.adminInstance = adminInstance;
+        this.adminInstance = this;
         this.userName = userName;
         this.password = password;
         this.salary = salary;
     }
 
+    
     public Admin getAdminInstance() {
         return adminInstance;
     }

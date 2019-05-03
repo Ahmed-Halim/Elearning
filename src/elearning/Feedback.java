@@ -2,15 +2,15 @@ package elearning;
 
 public class Feedback {
     int id;
-    String studentName;
     String comment;
-    int parentId;
+    int student_id;
+    int parent_id;
 
-    public Feedback(int id, String studentName, String comment, int parentId) {
+    public Feedback(int id, String comment, int student_id, int parent_id) {
         this.id = id;
-        this.studentName = studentName;
         this.comment = comment;
-        this.parentId = parentId;
+        this.student_id = student_id;
+        this.parent_id = parent_id;
     }
 
     public int getId() {
@@ -21,14 +21,6 @@ public class Feedback {
         this.id = id;
     }
 
-    public String getStudentName() {
-        return studentName;
-    }
-
-    public void setStudentName(String studentName) {
-        this.studentName = studentName;
-    }
-
     public String getComment() {
         return comment;
     }
@@ -37,17 +29,25 @@ public class Feedback {
         this.comment = comment;
     }
 
-    public int getParentId() {
-        return parentId;
+    public int getStudent_id() {
+        return student_id;
     }
 
-    public void setParentId(int parentId) {
-        this.parentId = parentId;
+    public void setStudent_id(int student_id) {
+        this.student_id = student_id;
+    }
+
+    public int getParent_id() {
+        return parent_id;
+    }
+
+    public void setParent_id(int parent_id) {
+        this.parent_id = parent_id;
     }
 
     @Override
     public String toString() {
-        return "Feedback{" + "id=" + id + ", studentName=" + studentName + ", comment=" + comment + ", parentId=" + parentId + '}';
+        return "Feedback{" + "id=" + id + ", comment=" + comment + ", student_id=" + student_id + ", parent_id=" + parent_id + '}';
     }
     
     

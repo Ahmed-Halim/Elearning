@@ -13,6 +13,10 @@ public class Course {
     ArrayList <Material> courseMaterial;
     ArrayList <Assignment> assignments;
     ArrayList <Quiz> quizList;
+    
+    public Course() {
+    
+    }
 
     public Course(String code, String name, String specification, char level, HashMap<Integer, Float> grades, Teacher courseTeacher, ArrayList<Material> courseMaterial, ArrayList<Assignment> assignment, ArrayList<Quiz> quizList) {
         this.code = code;
